@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="22.869">
+<testcase classname="Onpier web application for onboarding" name="Creating application for Private Person" time="14.212">
+<system-out><![CDATA[Given User navigates to landing page........................................passed
+When User selects Pramie beantragen button..................................passed
+When User Upload Files......................................................passed
+Then User verifies that Enter Personal Information page is loaded...........passed
+When User selects Private person radio button...............................passed
+Then User verifies that Company name and Sales tax ID field should not be dispalyed.passed
+And User enters data in fields for Private Person Frau and Kapoor and Prachi and xyz@pqr.com and Poonam Kapoor and DE68500105178297336485.passed
+Then User clicks Next button and verifies Personal details are correctly captured in Third page Frau and Kapoor and Prachi and xyz@pqr.com and Poonam Kapoor and DE68500105178297336485.passed
+]]></system-out>
+</testcase>
+<testcase classname="Onpier web application for onboarding" name="Creating application for Company" time="8.334">
+<system-out><![CDATA[Given User navigates to landing page........................................passed
+When User selects Pramie beantragen button..................................passed
+When User Upload Files......................................................passed
+Then User verifies that Enter Personal Information page is loaded...........passed
+When User selects Unternehmen radio button..................................passed
+Then User verifies that Company name and Sales tax ID field should be dispalyed.passed
+And User enters data in fields Company name and Sales tax ID Tata Concultancy Services DE324235456.passed
+And User enters data in fields for Private Person Frau and Kapoor and Prachi and xyz@pqr.com and Poonam Kapoor and DE68500105178297336485.passed
+Then User clicks Next button and verifies Personal details of Company are correctly captured in Third page Tata Concultancy Services and DE324235456 and Frau and Kapoor and Prachi and xyz@pqr.com and Poonam Kapoor and DE68500105178297336485.passed
+]]></system-out>
+</testcase>
+</testsuite>

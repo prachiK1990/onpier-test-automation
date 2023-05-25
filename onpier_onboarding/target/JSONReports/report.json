@@ -1,0 +1,398 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-25T11:52:33.349Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6470000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.OnpierSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Creating application for Private Person",
+        "description": "",
+        "id": "onpier-web-application-for-onboarding;creating-application-for-private-person;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4594000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User navigates to landing page",
+            "match": {
+              "location": "stepDefinition.OnpierSteps.verifyLanding()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 96000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User selects Pramie beantragen button",
+            "match": {
+              "location": "stepDefinition.OnpierSteps.userSelectsPramieBeantragenButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1037000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Upload Files",
+            "match": {
+              "location": "stepDefinition.OnpierSteps.userUploadFiles()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User verifies that Enter Personal Information page is loaded",
+            "match": {
+              "location": "stepDefinition.OnpierSteps.userVerfiesPersonalInformationLoadedSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User selects Private person radio button",
+            "match": {
+              "location": "stepDefinition.OnpierSteps.userSelectPrivateRadioButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User verifies that Company name and Sales tax ID field should not be dispalyed",
+            "match": {
+              "location": "stepDefinition.OnpierSteps.userVerifiesCompanynameSalesTaxIdNotDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1086000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters data in fields for Private Person Frau and Kapoor and Prachi and xyz@pqr.com and Poonam Kapoor and DE68500105178297336485",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Frau",
+                  "offset": 46
+                },
+                {
+                  "val": "Kapoor",
+                  "offset": 55
+                },
+                {
+                  "val": "Prachi",
+                  "offset": 66
+                },
+                {
+                  "val": "xyz@pqr.com",
+                  "offset": 77
+                },
+                {
+                  "val": "Poonam Kapoor",
+                  "offset": 93
+                },
+                {
+                  "val": "DE68500105178297336485",
+                  "offset": 111
+                }
+              ],
+              "location": "stepDefinition.OnpierSteps.userEntersDataInFieldsForPivatePerson(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 568000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks Next button and verifies Personal details are correctly captured in Third page Frau and Kapoor and Prachi and xyz@pqr.com and Poonam Kapoor and DE68500105178297336485",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Frau",
+                  "offset": 91
+                },
+                {
+                  "val": "Kapoor",
+                  "offset": 100
+                },
+                {
+                  "val": "Prachi",
+                  "offset": 111
+                },
+                {
+                  "val": "xyz@pqr.com",
+                  "offset": 122
+                },
+                {
+                  "val": "Poonam Kapoor",
+                  "offset": 138
+                },
+                {
+                  "val": "DE68500105178297336485",
+                  "offset": 156
+                }
+              ],
+              "location": "stepDefinition.OnpierSteps.userVerifyDataCapturedInThirdPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-25T11:52:47.572Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.OnpierSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Creating application for Company",
+        "description": "",
+        "id": "onpier-web-application-for-onboarding;creating-application-for-company;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1386000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.OnpierSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3482000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User navigates to landing page",
+            "match": {
+              "location": "stepDefinition.OnpierSteps.verifyLanding()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User selects Pramie beantragen button",
+            "match": {
+              "location": "stepDefinition.OnpierSteps.userSelectsPramieBeantragenButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 712000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User Upload Files",
+            "match": {
+              "location": "stepDefinition.OnpierSteps.userUploadFiles()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User verifies that Enter Personal Information page is loaded",
+            "match": {
+              "location": "stepDefinition.OnpierSteps.userVerfiesPersonalInformationLoadedSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 176000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User selects Unternehmen radio button",
+            "match": {
+              "location": "stepDefinition.OnpierSteps.userSelectUnternehmenRadioButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User verifies that Company name and Sales tax ID field should be dispalyed",
+            "match": {
+              "location": "stepDefinition.OnpierSteps.userVerifiesCompanynameSalesTaxIdDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 360000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enters data in fields Company name and Sales tax ID Tata Concultancy Services DE324235456",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tata Concultancy Services",
+                  "offset": 57
+                },
+                {
+                  "val": "DE324235456",
+                  "offset": 83
+                }
+              ],
+              "location": "stepDefinition.OnpierSteps.userEntersDataInFieldsForCompany(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1130000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enters data in fields for Private Person Frau and Kapoor and Prachi and xyz@pqr.com and Poonam Kapoor and DE68500105178297336485",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Frau",
+                  "offset": 46
+                },
+                {
+                  "val": "Kapoor",
+                  "offset": 55
+                },
+                {
+                  "val": "Prachi",
+                  "offset": 66
+                },
+                {
+                  "val": "xyz@pqr.com",
+                  "offset": 77
+                },
+                {
+                  "val": "Poonam Kapoor",
+                  "offset": 93
+                },
+                {
+                  "val": "DE68500105178297336485",
+                  "offset": 111
+                }
+              ],
+              "location": "stepDefinition.OnpierSteps.userEntersDataInFieldsForPivatePerson(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 816000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User clicks Next button and verifies Personal details of Company are correctly captured in Third page Tata Concultancy Services and DE324235456 and Frau and Kapoor and Prachi and xyz@pqr.com and Poonam Kapoor and DE68500105178297336485",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tata Concultancy Services",
+                  "offset": 102
+                },
+                {
+                  "val": "DE324235456",
+                  "offset": 132
+                },
+                {
+                  "val": "Frau",
+                  "offset": 148
+                },
+                {
+                  "val": "Kapoor",
+                  "offset": 157
+                },
+                {
+                  "val": "Prachi",
+                  "offset": 168
+                },
+                {
+                  "val": "xyz@pqr.com",
+                  "offset": 179
+                },
+                {
+                  "val": "Poonam Kapoor",
+                  "offset": 195
+                },
+                {
+                  "val": "DE68500105178297336485",
+                  "offset": 213
+                }
+              ],
+              "location": "stepDefinition.OnpierSteps.userVerifyCompanyDataCapturedInThirdPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@last"
+          }
+        ]
+      }
+    ],
+    "name": "Onpier web application for onboarding",
+    "description": "",
+    "id": "onpier-web-application-for-onboarding",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/onpierOnboarding.feature",
+    "tags": []
+  }
+]
